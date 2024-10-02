@@ -1,0 +1,97 @@
+/*
+Name: Ronan Norbury
+File: Styles.
+Date: 10/1/2024
+
+/* css Reset */
+body,
+header,
+nav,
+main,
+footer,
+img,
+h1,
+h3 {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+
+/* style rules for body */
+body {
+    padding: 2%;
+    background-color: #d1d1e0;
+}
+
+/* style rules for header */
+header h1 {
+    text-align: center;
+    font-size: 3em;
+    font-family: Georgia, Times, serif;
+    padding: 3%;
+    color: #47476b;
+}
+
+/* style rules for nav */
+nav {
+    background-color: #47476b;
+}
+
+nav ul {
+    margin: 0;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-family: Verdana, Arial, sans-serif;
+    font-weight: bold;
+}
+
+nav li a {
+    display: block;
+    color: #e3eaf8;
+    padding: 0.5em 2em;
+    text-decoration: none;
+}
+
+/* style rules for main */
+main {
+    padding: 2%;
+    overflow: auto;
+    font-family: Geneva, Arial, sans-serif;
+}
+
+main p {
+    font-size: 1.25em;
+}
+
+main h3 {
+    padding-top: 2%;
+    font-size: 2em;
+}
+
+main a {
+    text-decoration: none;
+    color: #47476b;
+    font-weight: bold;
+    font-style: italic;
+}
+
+#css1,
+#css2,
+#css3 {
+    width: 30%;
+    float: left;
+    padding: 0 1%;
+}
+
+/* style rules for footer */
+footer {
+    text-align: center;
+    font-size: 0.85em;
+    color: #47476b;
+    padding: 1% 0;
+    border-top: 3px solid #47476b;
+}
